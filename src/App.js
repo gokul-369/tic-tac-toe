@@ -79,7 +79,7 @@ const App = () => {
       itemArray[itemNumber] = isCross ? "Cross" : "Circle";
       setIsCross(!isCross);
     } else {
-      return toast("Already Filled", { type: "error" });
+      return toast(" Box Already Filled", { type: "error" });
     }
 
     checkIsWinner();
